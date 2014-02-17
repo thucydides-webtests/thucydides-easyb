@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>thucydides</artifactId>
+        <groupId>net.thucydides</groupId>
+        <version>0.9.229</version>
+    </parent>
+    <groupId>net.thucydides.easyb</groupId>
+    <artifactId>thucydides-easyb-plugin-aggregator</artifactId>
+    <packaging>pom</packaging>
+    <name>Thucydides Easyb Plugin Aggregator</name>
+    <modules>
+        <module>thucydides-easyb-plugin</module>
+        <module>thucydides-easyb-integration-tests</module>
+    </modules>
+</project>
