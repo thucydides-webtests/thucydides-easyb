@@ -10,7 +10,7 @@
     <name>Thucydides Easyb Integration Sample Project</name>
 
     <properties>
-        <thucydides.version>@project.version@</thucydides.version>
+        <thucydides.version>0.9.256</thucydides.version>
     </properties>
 
     <dependencies>
