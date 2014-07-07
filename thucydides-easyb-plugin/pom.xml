@@ -39,6 +39,9 @@
                         <phase>package</phase>
                     </execution>
                 </executions>
+                <configuration>
+                    <destinationDirectory>${project.basedir}/target/apidocs</destinationDirectory>
+                </configuration>
             </plugin>
         </plugins>
     </build>
