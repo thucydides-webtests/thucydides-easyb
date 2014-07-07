@@ -8,11 +8,11 @@
     </parent>
     <groupId>net.thucydides.easyb</groupId>
     <artifactId>thucydides-easyb-plugin</artifactId>
-    <version>0.9.257-SNAPSHOT</version>
+    <version>0.9.256-SNAPSHOT</version>
     <name>Thucydides Easyb Plugin</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <thucydides.version>0.9.256-SNAPSHOT</thucydides.version>
+        <thucydides.version>0.9.256</thucydides.version>
         <groovy.version>2.3.3</groovy.version>
     </properties>
     <build>
