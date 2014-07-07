@@ -8,6 +8,7 @@
     </parent>
     <groupId>net.thucydides.easyb</groupId>
     <artifactId>thucydides-easyb-plugin-aggregator</artifactId>
+  <version>0.9.256</version>
     <packaging>pom</packaging>
     <name>Thucydides Easyb Plugin Aggregator</name>
     <modules>
