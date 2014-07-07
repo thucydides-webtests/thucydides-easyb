@@ -8,7 +8,7 @@
     </parent>
     <groupId>net.thucydides.easyb</groupId>
     <artifactId>thucydides-easyb</artifactId>
-    <version>0.9.257-SNAPSHOT</version>
+    <version>0.9.256-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Thucydides Easyb Plugin Aggregator</name>
     <modules>
@@ -16,6 +16,7 @@
         <module>thucydides-easyb-integration-tests</module>
     </modules>
     <build>
+       <pluginManagement>
         <plugins>
             <plugin>
                 <groupId>com.bluetrainsoftware.maven</groupId>
@@ -31,6 +32,7 @@
                 </executions>
             </plugin>
         </plugins>
+       </pluginManagement>
     </build>
     <scm>
         <connection>scm:git:git@gtomithub.com:thucydides-webtests/thucydides-easyb.git</connection>
