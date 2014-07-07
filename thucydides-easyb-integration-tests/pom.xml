@@ -13,7 +13,7 @@
     <url>http://maven.apache.org</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
-        <thucydides.version>0.9.256</thucydides.version>
+        <thucydides.version>0.9.256-SNAPSHOT</thucydides.version>
     </properties>
     <build>
         <plugins>
