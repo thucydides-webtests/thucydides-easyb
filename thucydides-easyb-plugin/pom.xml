@@ -4,15 +4,15 @@
     <parent>
         <artifactId>thucydides</artifactId>
         <groupId>net.thucydides</groupId>
-        <version>0.9.256</version>
+        <version>0.9.262</version>
     </parent>
     <groupId>net.thucydides.easyb</groupId>
     <artifactId>thucydides-easyb-plugin</artifactId>
-    <version>0.9.257-SNAPSHOT</version>
+    <version>0.9.262-SNAPSHOT</version>
     <name>Thucydides Easyb Plugin</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <thucydides.version>0.9.256</thucydides.version>
+        <thucydides.version>0.9.262</thucydides.version>
         <groovy.version>2.3.3</groovy.version>
     </properties>
     <build>
@@ -23,7 +23,7 @@
                 <version>${surefire.version}</version>
                 <configuration>
                     <parallel>classes</parallel>
-                    <threadCount>10</threadCount>
+                    <threadCountClasses>10</threadCountClasses>
                 </configuration>
             </plugin>
             <plugin>
